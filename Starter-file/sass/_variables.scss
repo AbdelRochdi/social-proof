@@ -1,0 +1,11 @@
+$primary1 : hsl(300, 43%, 22%);
+$primary2: hsl(333, 80%, 67%);
+$neutral1 : hsl(303, 10%, 53%);
+$neutral2 : hsl(300, 24%, 96%);
+$neutral3 : hsl(0, 0%, 100%);
+
+@mixin desktop {
+	@media screen and (min-width: 1440px) {
+		@content;
+	}
+}

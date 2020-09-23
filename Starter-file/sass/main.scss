@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;700&display=swap');
+
+@import 'top';
+@import 'variables';
+@import 'testimonials';
+
+
+html{
+    font-size: 10px;
+    font-family: 'Spartan', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    @include desktop{
+        padding: 11rem;
+        background: url(../../../images/bg-pattern-top-desktop.svg) no-repeat ;
+   }
+    
+}
+
+body{
+    background: url(../../../images/bg-pattern-bottom-mobile.svg) no-repeat bottom;
+    @include desktop{
+        background: url(../../../images/bg-pattern-bottom-desktop.svg) no-repeat bottom;
+   }
+}
+

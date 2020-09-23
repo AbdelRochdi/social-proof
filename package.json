@@ -1,0 +1,20 @@
+{
+  "name": "social-proof",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass Starter-file/sass/main.scss Starter-file/dist/css/style.css",
+    "watch": "node-sass Starter-file/sass/main.scss Starter-file/dist/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdelRochdi/social-proof.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdelRochdi/social-proof/issues"
+  },
+  "homepage": "https://github.com/AbdelRochdi/social-proof#readme"
+}
